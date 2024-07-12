@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+* {
+    font-family: "Nunito Sans", sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+    background-color: white;
+}
+
+.topo{
+    background-image: url(../imagens/fundo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.t-cab{
+    padding: 50px;
+}
+
+.titulo-cabecalho{
+    font-size: 3em;
+    font-weight: 900;
+    color: #FFC750;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.318);
+}
+
+.texto-cabecalho{
+    width: 400px;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.318);
+}
+
+.fotos-t{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.foto-topo{
+    display: flex;
+    flex-direction: column;
+}
+
+.foto-topo > img{
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.foto-topo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-topo2 > img{
+    width: 100px;
+    border-radius: 20px;
+    
+    padding: 10px;
+}
+
+.box{
+    width: 95px;
+    height: 75px;
+    background-color: aquamarine;
+    margin: 10px;
+    border-radius: 20px;
+}
