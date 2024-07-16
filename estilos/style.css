@@ -108,6 +108,7 @@ body {
 .foto-i > p{
     font-size: .8em;
     margin-top: 10px;
+    font-weight: 300;
 }
 
 .destaque{
