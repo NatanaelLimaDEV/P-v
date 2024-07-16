@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,27 @@
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
     <!-- Estilos -->
-     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
 
     <title>Destinos</title>
 </head>
+
 <body>
     <!-- Cabeçalho -->
     <header>
         <div class="topo">
             <div class="t-cab">
                 <h1 class="titulo-cabecalho">Onde ir no Ceará?</h1>
-                <p class="texto-cabecalho">Disponibilizamos um pequeno guia de 10 lugares especiais para se visitar, no estado do Ceará.</p>
+                <p class="texto-cabecalho">Disponibilizamos um pequeno guia de 10 lugares especiais para se visitar, no
+                    estado do Ceará.</p>
             </div>
         </div>
     </header>
@@ -28,27 +36,55 @@
     <!-- Corpo -->
     <main>
         <section class="centro">
-            <div class="fotos-t">
-                <div class="foto-topo">
-                    <img src="imagens/chinelo.jpg" alt="">
-                    <img src="imagens/coqueiro.jpg" alt="">
-                </div>
-                <div class="foto-topo2">
-                    <div class="box"></div>
-                    <img src="imagens/chapeu.jpg" alt="">
-                    <div class="box"></div>
-                </div>
-                <div class="foto-topo">
-                    <img src="imagens/sol.jpg" alt="">
-                    <img src="imagens/pegadas.jpg" alt="">
-                </div>
-            </div>
+            <article class="arti">
+                <section class="sec">
+                    <p>
+                        <strong class="destaque">O Ceará</strong>, um estado do nordeste brasileiro, tem um interior montanhoso e um
+                        litoral atlântico com impressionantes falésias vermelhas. O balneário de Canoa Quebrada tem
+                        enormes dunas de areia rosadas e a Rua Dragão do Mar, muito movimentada e também conhecida como
+                        Broadway. A cidade isolada de Jericoacoara, cercada pelo Parque Nacional de Jericoacoara,
+                        repleto de dunas, é famosa por suas ruas de areia, pela prática de windsurfe e pelo pôr do sol
+                        incomum em tons de verde.
+                    </p>
+                </section>
+                <section class="sec fotos">
+                    <section class="foto-c1">
+                        <img src="imagens/chinelo.jpg" alt="" id="imagem1">
+                        <img src="imagens/coqueiro.jpg" alt="" id="imagem2">
+                    </section>
+                    <section class="foto-c2">
+                        <div class="box"></div>
+                        <img src="imagens/chapeu.jpg" alt="" id="imagem3">
+                        <div class="box"></div>
+                    </section>
+                    <section class="foto-c3 foto-c1">
+                        <img src="imagens/sol.jpg" alt="" id="imagem4">
+                        <img src="imagens/pegadas.jpg" alt="" id="imagem5">
+                    </section>
+                </section>
+            </article>
+        </section>
+        <section class="centro">
+            <article class="arti arti-c2">
+                <section class="sec"> 
+                    <p>
+                        <strong class="destaque">Jericoacoara</strong> é uma cidade turística no estado do Ceará, no leste do Brasil. É conhecida pela ampla praia de Jericoacoara. Os restaurantes e bares preenchem as ruas arenosas. A Praça Principal fica no centro, na animada Rua Principal. A cidade está rodeada de lagoas de água doce, como a Lagoa do Paraíso e a Lagoa Azul, e do Parque Nacional de Jericoacoara, com vastas dunas de areia. A Duna do Pôr do Sol é um popular ponto de observação do pôr do sol.
+                    </p>
+                </section>
+                <section class="sec foto-i">
+                    <img src="imagens/duna-csl.jpg" alt="">
+                    <p>Duna do pôr do sol.</p>
+                </section>
+            </article>
         </section>
     </main>
 
-    
+
     <footer>
         <p>Desenvolvido por NtA</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
